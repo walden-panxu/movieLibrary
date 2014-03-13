@@ -1,0 +1,29 @@
+#headdiv{margin-bottom: 50px;}
+#headtext{font-family:'微软雅黑';font-size: 20px;margin-left: 5px;}
+#middle{margin: 0 auto;height:500px;width: 600px;border: 1px solid;margin-top: 50px; }
+a{text-decoration: none;}
+
+.namepassemail{width: 330px;height: 35px;line-height: 35px;font-size: 18px;
+				border-radius: 5px;background: transparent;border: 1px solid;
+				border-color: #C4CDDC;}
+.divinput{margin-top: 15px;margin-bottom: 0px;width: 600px;height: 35px;margin-left: 5px;}
+.divselect{margin-top: 0px;margin-bottom: 5px;width: 600px;height: 50px;margin-left: 5px;}
+.textlab{display: block;margin-bottom: -30px;margin-left: 5px;border: 0px;color: #ABABAB;
+		font-size: 14px;font-weight: bold;font-family:'微软雅黑';}
+.selection{font-size: 16px;font-family:'微软雅黑';}
+#datelabel{margin-left: 40px;}
+.birthdate{width: 200px;height: 25px;line-height: 25px;font-size: 18px;
+			border-radius: 5px;background: transparent;border: 1px solid;
+			border-color: #C4CDDC;margin-top: 7px;margin-left: 35px;}
+.selector{margin-top: 10px;width: 600px;height: 35px;}
+#divgender{margin-left: 30px;margin-top: 5px;}
+#divbutton{margin-top: 20px;width: 595px;height: 35px;margin-left: 5px;}
+#butsubmit{width: 220px;height: 35px;margin-left: 55px;background-color: #7BCC5E;
+			border-radius: 5px;border: 1px solid;
+			border-color: #7BCC5E;color: #FFFFFF;
+			font-family: '微软雅黑';font-size: 20px;font-weight: 800;}
+.gendertitle{margin-top: 10px;}
+.gendertext{font-family:'微软雅黑';font-size: 14px;}
+input:focus {
+      background:#fff;
+    }

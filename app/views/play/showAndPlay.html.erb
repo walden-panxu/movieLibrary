@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta decript="">
+	<meta keyword="">
+	<title>心灵之旅！</title>
+	
+	<%= stylesheet_link_tag "showAndPlay.css" %>
+</head>
+<body>
+	<!--页眉-->
+	<header class="status">
+		
+	</header>
+	<div class="title_div">
+		
+	</div>
+	<!--影片播放区-->
+	<div class="video_div">
+		<div class="video_left">
+			<ul class="movie_class">
+				<li><a href=""><span>亲情</span></a></li>
+				<li><a href=""><span>爱情</span></a></li>
+				<li><a href=""><span>灾难</span></a></li>
+				<li><a href=""><span>+</span></a></li>
+			</ul>
+		</div>
+		<div class="videodiv">
+			<%= video_tag(@movie_url,:id=>"video_id",
+			:controls => true) %>
+		</div>
+		<div class="video_right">
+			<ul class="movie_introduce">
+				<li class="movie_bill"></li>
+				<li><span>片名:</span><span><%=@movie_name  %></span></li>
+				<li><span>导演:</span><span><%=@directors[0].directorName  %></span></li>
+				<li><span>主演:</span>
+				<% @actors.each do |actor|	%>
+					<span><%= actor.actorsName  %></span>
+				<% end	%>
+				</li>
+				<li><span></span></li>
+				<li class="remark"><a href=""><span>点评</span></a></li>
+
+			</ul>
+		</div>
+		<div class="video_list">
+			<div class="video_li">
+				<%= image_tag("yy.jpg",:width => "90",:height=>"70" ) %>
+			</div>
+		</div>
+	</div>
+	<!--影片展示区-->
+	<div class="movie_show">
+		<div class="class_title"></div>
+		<div class="movie_list">
+			<div class="movie"></div>
+		</div>
+	</div>
+	<!--页脚-->
+	<footer>
+		
+	</footer>
+</body>
+</html>

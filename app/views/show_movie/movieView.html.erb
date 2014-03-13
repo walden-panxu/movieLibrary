@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta decript="">
+	<meta keyword="">
+	<title>片库</title>
+	<%= stylesheet_link_tag "movie_view.css" %>
+	<%= javascript_include_tag "jquery-1.8.2.js" %>
+	<%= javascript_include_tag "jquery.cycle.js" %>
+	<%= javascript_include_tag "movieView.js" %>
+</head>
+<body>
+	<header class="status">
+		
+	</header>
+	<div class="title_div">
+		
+	</div>
+
+	<!-- 新片展示区 -->
+	<div class="video_div">
+		<div class="video_left">
+			<ul class="menu_list">
+				
+				<li><a href=""><span>剧情类</span></a></li>
+				<li><a href=""><span>动作类</span></a></li>
+				<li><a href=""><span>爱情类</span></a></li>
+				<li><a href=""><span>喜剧类</span></a></li>
+				<li><a href=""><span>恐怖类</span></a></li>
+			</ul>
+		</div>
+		<div class="left">
+			<div class="bill">
+				<%= link_to(image_tag(@new_movie[0].movieBill,:width=>"165",:height=>"200",:class=>"center_image"),
+						{:controller=>"play",:action=>"showAndPlay",:id=>@new_movie[0].movieName},
+						{:method=>:get}
+						) 
+				%>
+				<%= link_to(image_tag(@new_movie[1].movieBill,:width=>"165",:height=>"200",:class=>"center_image"),
+						{:controller=>"play",:action=>"showAndPlay",:id=>@new_movie[1].movieName},
+						{:method=>:get}
+						) 
+				%>	
+			</div>
+			<div class="bill">
+				<%= link_to(image_tag(@new_movie[2].movieBill,:width=>"165",:height=>"200",:class=>"center_image"),
+						{:controller=>"play",:action=>"showAndPlay",:id=>@new_movie[2].movieName},
+						{:method=>:get}
+						) 
+				%>
+				<%= link_to(image_tag(@new_movie[3].movieBill,:width=>"165",:height=>"200",:class=>"center_image"),
+						{:controller=>"play",:action=>"showAndPlay",:id=>@new_movie[3].movieName},
+						{:method=>:get}
+						) 
+				%>	
+			</div>
+			<div class="bill">
+				<%= link_to(image_tag(@new_movie[4].movieBill,:width=>"165",:height=>"200",:class=>"center_image"),
+						{:controller=>"play",:action=>"showAndPlay",:id=>@new_movie[4].movieName},
+						{:method=>:get}
+						) 
+				%>
+				<%= link_to(image_tag(@new_movie[5].movieBill,:width=>"165",:height=>"200",:class=>"center_image"),
+						{:controller=>"play",:action=>"showAndPlay",:id=>@new_movie[5].movieName},
+						{:method=>:get}
+						) 
+				%>	
+			</div>
+			<div class="bill">
+				<%= link_to(image_tag(@new_movie[6].movieBill,:width=>"165",:height=>"200",:class=>"center_image"),
+						{:controller=>"play",:action=>"showAndPlay",:id=>@new_movie[6].movieName},
+						{:method=>:get}
+						) 
+				%>
+				<%= link_to(image_tag(@new_movie[7].movieBill,:width=>"165",:height=>"200",:class=>"center_image"),
+						{:controller=>"play",:action=>"showAndPlay",:id=>@new_movie[7].movieName},
+						{:method=>:get}
+						) 
+				%>	
+			</div>
+		</div>
+		<div class="center">
+			<%= link_to(image_tag(@new_movie[8].movieBill,:width=>"300",:height=>"400",:class=>"center_image"),
+						{:controller=>"play",:action=>"showAndPlay",:id=>@new_movie[8].movieName},
+						{:method=>:get}
+						) 
+			%>
+			<%= link_to(image_tag(@new_movie[9].movieBill,:width=>"300",:height=>"400",:class=>"center_image"),
+						{:controller=>"play",:action=>"showAndPlay",:id=>@new_movie[9].movieName},
+						{:method=>:get}
+						) 
+			%>
+						
+		</div>
+		<div class="right">
+			<div class="bill">
+				<%= link_to(image_tag(@new_movie[10].movieBill,:width=>"165",:height=>"200",:class=>"center_image"),
+						{:controller=>"play",:action=>"showAndPlay",:id=>@new_movie[10].movieName},
+						{:method=>:get}
+						) 
+				%>
+				<%= link_to(image_tag(@new_movie[11].movieBill,:width=>"165",:height=>"200",:class=>"center_image"),
+						{:controller=>"play",:action=>"showAndPlay",:id=>@new_movie[11].movieName},
+						{:method=>:get}
+						) 
+				%>	
+			</div>
+			<div class="bill">
+				<%= link_to(image_tag(@new_movie[12].movieBill,:width=>"165",:height=>"200",:class=>"center_image"),
+						{:controller=>"play",:action=>"showAndPlay",:id=>@new_movie[12].movieName},
+						{:method=>:get}
+						) 
+				%>
+				<%= link_to(image_tag(@new_movie[13].movieBill,:width=>"165",:height=>"200",:class=>"center_image"),
+						{:controller=>"play",:action=>"showAndPlay",:id=>@new_movie[13].movieName},
+						{:method=>:get}
+						) 
+				%>	
+			</div>
+			<div class="bill">
+				<%= link_to(image_tag(@new_movie[14].movieBill,:width=>"165",:height=>"200",:class=>"center_image"),
+						{:controller=>"play",:action=>"showAndPlay",:id=>@new_movie[14].movieName},
+						{:method=>:get}
+						) 
+				%>
+				<%= link_to(image_tag(@new_movie[15].movieBill,:width=>"165",:height=>"200",:class=>"center_image"),
+						{:controller=>"play",:action=>"showAndPlay",:id=>@new_movie[15].movieName},
+						{:method=>:get}
+						) 
+				%>	
+			</div>
+			<div class="bill">
+				<%= link_to(image_tag(@new_movie[16].movieBill,:width=>"165",:height=>"200",:class=>"center_image"),
+						{:controller=>"play",:action=>"showAndPlay",:id=>@new_movie[16].movieName},
+						{:method=>:get}
+						) 
+				%>
+				<%= link_to(image_tag(@new_movie[17].movieBill,:width=>"165",:height=>"200",:class=>"center_image"),
+						{:controller=>"play",:action=>"showAndPlay",:id=>@new_movie[17].movieName},
+						{:method=>:get}
+						) 
+				%>	
+			</div>
+		</div>
+	</div>
+	<!-- 搜索区 -->
+	<div class="search_div">
+		<form action="" method="post">
+			<label class="search_lable">请输入片名</label>
+			<input type="text" name="keytext" class="text_input"/>
+			<input type="submit" class="submit_input" value="search"/>
+		</form>
+	</div>
+	<!-- 佳片推荐区 -->
+	<div class="movie_list">
+		<div class="class_lable">
+			<span>佳片推荐</span>
+			<span class="more">
+			<!--<a href="">更多...</a>-->
+			<%= link_to("更多...",
+						{:controller=>"show_movie",:action=>"classView",:id=>"佳片推荐"},
+						{:method=>"get"})
+			%>
+			</span>
+		</div>
+		<%
+			@goode_movie.each do |movie|
+			
+		
+		%>
+		<div class="movie">
+			<%= link_to(image_tag(movie.movieBill,:width=>"200",:height=>"250"),
+						{:controller=>"play",:action=>"showAndPlay",:id=>movie.movieName},
+						{:method=>:get}
+						)
+			%>
+			<div class="movie_lable">
+				<a href=""><span class="title"><%= movie.movieName %></span>
+				<span class="object"><%= movie.movieDescribe %></span>
+				</a>
+			</div>
+		</div>
+		<% end %>
+
+	</div>
+
+	<!-- 爱情区 -->
+	<div class="movie_list">
+		<div class="class_lable">
+			<span>爱情</span>
+			<span class="more">
+			<%= link_to("更多...",
+						{:controller=>"show_movie",:action=>"classView",:id=>"爱情"},
+						{:method=>"get"})
+			%>
+			</span>
+		</div>
+		<%
+			@love_movie.each do |movie|
+			
+		
+		%>
+		<div class="movie">
+			<%= link_to(image_tag(movie.movieBill,:width=>"200",:height=>"250"),
+						{:controller=>"play",:action=>"showAndPlay",:id=>movie.movieName},
+						{:method=>:get}
+						)
+			%>
+			<div class="movie_lable">
+				<a href=""><span class="title"><%= movie.movieName %></span>
+				<span class="object"><%= movie.movieDescribe %></span>
+				</a>
+			</div>
+		</div>
+		<% end %>
+	</div>
+	<!--页脚-->
+	<footer>
+		
+	</footer>
+</body>
+</html>

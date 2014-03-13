@@ -1,0 +1,30 @@
+/**/
+body{margin: 0px;}
+header{border:1px solid;width: 90%;height: 30px;margin: 0px auto;}
+.title_div{border:1px solid;height:50px;width: 30%;margin-left: 10.9%;}
+.video_div{
+	border:1px solid;height: 700px;width:90%;margin: 0px auto;margin-top: 20px;
+}
+.videodiv{border:1px solid;width: 700px;height: 520px;float: left;}
+
+video{padding: 0px;width: 700px;height: 520px;margin-top: -40px;}
+
+.video_list{border:1px solid;height: 155px;width: 500px;float: left;margin-left: 25%;}
+.video_li{border:1px solid;height: 70px;width: 90px;}
+.video_left{border:1px solid;height: 340px;width: 200px;float:left;}
+.video_right{border:1px solid;height: 340px;float: left;width: 200px;}
+.movie_class{border:1px solid;width: 200px;height: 340px;padding:0px;list-style: none;margin-top: 0px;}
+.movie_class li{border:1px solid;width: 200px;height: 30px;font-family: "微软雅黑";line-height: 30px;
+			text-align: center;	}
+.movie_class li a{text-decoration: none;display: block;}
+.movie_introduce{border:1px solid;width: 200px;height: 340px;padding:0px;list-style: none;margin-top: 0px;}
+.movie_introduce .movie_bill{border:1px solid;height: 100px;width: 100px;margin-left: 55px;}
+.movie_introduce li{ border:1px solid;height: 30px;width: 200px;margin-left: 10px;}
+.movie_introduce li span{font-family: "微软雅黑";line-height: 30px;}
+.movie_introduce li a{text-decoration: none;}	
+.movie_introduce .remark{text-align: center;}
+.movie_show{border:1px solid;width: 1000px;height: 100%;margin: 0px auto;}
+.class_title{border:1px solid;width: 300px;height: 30px;}
+.movie_list{border:1px solid;width: 1000px;height: 100%;}
+.movie{border:1px solid;width: 100px;height:100px;}	
+footer{border:1px solid;width:500px;height: 40px;margin: 0px auto;margin-top: 30px;}			

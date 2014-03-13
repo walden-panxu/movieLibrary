@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>register</title>
+	
+	<%= stylesheet_link_tag "register.css" %>
+	<%= javascript_include_tag "jquery-1.8.2.js" %>
+	<%= javascript_include_tag "register.js" %>
+	
+</head>
+<body>
+	<div id="middle">
+		<div id="headdiv"><span id="headtext">生活是自己的，追随自己的内心！</span></div>
+		
+			<form name="registerform" action='/register_login/register' method="post" class="formclass">
+				<div class="divinput">
+					<label class="textlab" for="nameinput">请输入一个你喜欢的名字</label>
+					<input type="text" name="userName" id="nameinput" class="namepassemail textinput" />
+				</div>
+				<div class="divinput">
+					<label class="textlab" for="passwordinput">请输入密码</label>
+					<input type="password" name="password" id="passwordinput" class="namepassemail textinput"/>
+				</div>
+				<div class="divinput">
+					<label class="textlab" for="emailinput">请输入你的邮箱地址</label>
+					<input type="text" name="email" id="emailinput" class="namepassemail textinput"/>
+				</div>
+								
+				<div >
+					<input type="checkbox" name="isok"/>
+					<span style="margin-left:5px;font-size:14px;">
+					我已认真阅读并同意我的生活的《<a href="/">使用协议</a>》。
+					</span>
+				</div>
+				<div id="divbutton"><button id="butsubmit" type="submit">注&nbsp;册</button></div>
+			</form>
+		
+	</div>
+</body>
+</html>
